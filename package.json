@@ -33,7 +33,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "postpublish": "npm run gh-pages",
     "build": "babel src --out-dir lib",
     "build:demo": "webpack --config webpack.demo.config.js",
